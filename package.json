@@ -1,0 +1,31 @@
+{
+  "name": "contact_api",
+  "version": "1.0.0",
+  "description": "Simple Api for Contact web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "SET NODE_ENV=dev& nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aimansyakirr/Contact_api.git"
+  },
+  "author": "aimansyakirr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aimansyakirr/Contact_api/issues"
+  },
+  "homepage": "https://github.com/aimansyakirr/Contact_api#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "path": "^0.12.7",
+    "sequelize": "^6.20.0"
+  }
+}
